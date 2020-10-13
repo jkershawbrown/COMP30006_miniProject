@@ -1,0 +1,42 @@
+﻿html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    height: 100%;
+}
+
+#messageHistory {
+    padding-top: 5%;
+    text-align: center;
+}
+
+#chatHistory {
+    resize: none;
+    width: 700px;
+}
+
+#newMessage {
+    padding-top: 3%;
+    text-align: center;
+    display: block;
+}
+
+#newText {
+    resize: none;
+    width: 500px;
+}
+
+textarea {
+
+}
+
+#submitButton {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
