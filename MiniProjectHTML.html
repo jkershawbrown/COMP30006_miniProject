@@ -4,7 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <title>Mini Project</title>
-    <link rel="stylesheet" href="MiniProjectCSS.css"/>
+    <link rel="stylesheet" href="MiniProjectCSS.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="MPJS.js"></script>
+
 </head>
 <body>
     <div id="messageHistory">
@@ -12,8 +15,8 @@
         </textarea>
     </div>
     <div id="newMessage">
-        <textarea rows="5" id="newText">New text goes here.</textarea>
-        <input type="submit" id="submitButton" value="Send"/>
+        <input type="text" rows="5" id="newText"/>
+        <input type="submit" id="submitButton" disabled="disabled" value="Send"/>
     </div>
 </body>
 </html>
